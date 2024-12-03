@@ -19,6 +19,7 @@ module.exports = {
         socialcolor2:"#60E188",
         socialcolor3:"#FDB157",
         primary:"#FF6B6D",
+        footertext:"#E8E8E8"
       },
     },
   },
