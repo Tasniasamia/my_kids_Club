@@ -1,11 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 .container{
   @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8
 }
+body{
+font-family: "Nunito", sans-serif;
 
+}
+//header footer 
 .ant-badge .ant-badge-count {
 background: #FC800A !important;
+}
+.footer_text{
+font-size:18px;
+font-weight: 600;
+line-height: 26px;
+text-align: left;
+}
+.paragraph{
+font-size: 20px;
+font-weight: 300;
+line-height: 35px;
+}
+@media screen and (max-width: 576px) {
+  .paragraph{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    }
 }

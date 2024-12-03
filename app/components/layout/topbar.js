@@ -10,7 +10,7 @@ import { FaFacebookF } from "react-icons/fa6";
 
 const Topbar = () => {
   return (
-    <div className="bg-cyan py-3 border-b border-white">
+    <div className="bg-cyan bg-opacity-50 py-3 border-b border-white">
         <div className="container mx-auto">
       <div className=" w-full flex  justify-between items-center md:gap-0 gap-[10px] sm:flex-row flex-col">
         <ul className="list-none flex lg:gap-[40px] sm:gap-[10px]  gap-[20px] items-center">

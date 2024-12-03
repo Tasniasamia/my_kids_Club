@@ -64,7 +64,7 @@ const Header = () => {
     },
   ];
   return (
-    <div className="bg-cyan py-[10px]">
+    <div className="bg-cyan py-[10px] bg-opacity-50">
       <div className="container ">
         <div className="flex justify-between items-center ">
           <Image
